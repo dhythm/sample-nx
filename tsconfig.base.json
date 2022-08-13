@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sample-nx/hello-tsc": ["packages/hello-tsc/src/index.ts"],
+      "testlib": ["packages/testlib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
